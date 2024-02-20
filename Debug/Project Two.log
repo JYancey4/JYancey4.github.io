@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\yance\OneDrive\Desktop\Assignments-Projects\CS 330\Project Two\main.cpp(339,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\yance\OneDrive\Desktop\Assignments-Projects\CS 330\Project Two\main.cpp(599,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\yance\OneDrive\Desktop\Assignments-Projects\CS 330\Project Two\main.cpp(600,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\yance\OneDrive\Desktop\Assignments-Projects\CS 330\Project Two\main.cpp(604,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\yance\OneDrive\Desktop\Assignments-Projects\CS 330\Project Two\main.cpp(605,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\yance\OneDrive\Desktop\Assignments-Projects\CS 330\Project Two\main.cpp(606,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\yance\OneDrive\Desktop\Assignments-Projects\CS 330\Project Two\main.cpp(607,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\yance\OneDrive\Desktop\Assignments-Projects\CS 330\Project Two\main.cpp(614,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\yance\OneDrive\Desktop\Assignments-Projects\CS 330\Project Two\main.cpp(618,34): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Project Two.vcxproj -> C:\Users\yance\OneDrive\Desktop\Assignments-Projects\CS 330\Project Two\Debug\Project Two.exe
