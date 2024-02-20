@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app_admin\node_modules\ajv\lib\dot\coerce.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\ajv\lib\dot\defaults.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\ajv\lib\dot\definitions.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\ajv\lib\dot\errors.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\ajv\lib\dot\missing.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\har-validator\node_modules\ajv\lib\dot\coerce.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\har-validator\node_modules\ajv\lib\dot\defaults.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\har-validator\node_modules\ajv\lib\dot\definitions.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\har-validator\node_modules\ajv\lib\dot\errors.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\har-validator\node_modules\ajv\lib\dot\missing.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\istanbul-instrumenter-loader\node_modules\ajv\lib\dot\coerce.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\istanbul-instrumenter-loader\node_modules\ajv\lib\dot\defaults.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\istanbul-instrumenter-loader\node_modules\ajv\lib\dot\definitions.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\istanbul-instrumenter-loader\node_modules\ajv\lib\dot\errors.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\istanbul-instrumenter-loader\node_modules\ajv\lib\dot\missing.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\mini-css-extract-plugin\node_modules\ajv\lib\dot\coerce.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\mini-css-extract-plugin\node_modules\ajv\lib\dot\defaults.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\mini-css-extract-plugin\node_modules\ajv\lib\dot\definitions.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\mini-css-extract-plugin\node_modules\ajv\lib\dot\errors.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\mini-css-extract-plugin\node_modules\ajv\lib\dot\missing.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\schema-utils\node_modules\ajv\lib\dot\coerce.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\schema-utils\node_modules\ajv\lib\dot\defaults.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\schema-utils\node_modules\ajv\lib\dot\definitions.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\schema-utils\node_modules\ajv\lib\dot\errors.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\schema-utils\node_modules\ajv\lib\dot\missing.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\url-loader\node_modules\ajv\lib\dot\coerce.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\url-loader\node_modules\ajv\lib\dot\defaults.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\url-loader\node_modules\ajv\lib\dot\definitions.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\url-loader\node_modules\ajv\lib\dot\errors.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\url-loader\node_modules\ajv\lib\dot\missing.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\webpack\node_modules\ajv\lib\dot\coerce.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\webpack\node_modules\ajv\lib\dot\defaults.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\webpack\node_modules\ajv\lib\dot\definitions.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\webpack\node_modules\ajv\lib\dot\errors.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\webpack\node_modules\ajv\lib\dot\missing.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\webpack-dev-server\node_modules\ajv\lib\dot\coerce.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\webpack-dev-server\node_modules\ajv\lib\dot\defaults.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\webpack-dev-server\node_modules\ajv\lib\dot\definitions.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\webpack-dev-server\node_modules\ajv\lib\dot\errors.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\webpack-dev-server\node_modules\ajv\lib\dot\missing.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="node_modules\ajv\lib\dot\coerce.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="node_modules\ajv\lib\dot\defaults.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="node_modules\ajv\lib\dot\definitions.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="node_modules\ajv\lib\dot\errors.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="node_modules\ajv\lib\dot\missing.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="app_admin\node_modules\%40angular-devkit\build-angular\src\angular-cli-files\plugins\karma-context.html" />
+    <None Include="app_admin\node_modules\%40angular-devkit\build-angular\src\angular-cli-files\plugins\karma-debug.html" />
+    <None Include="app_admin\node_modules\%40schematics\angular\application\files\src\index.html" />
+    <None Include="app_admin\node_modules\%40schematics\angular\application\other-files\app.component.html" />
+    <None Include="app_admin\node_modules\%40schematics\angular\component\files\__name%40dasherize%40if-flat__\__name%40dasherize__.component.html" />
+    <None Include="app_admin\node_modules\argparse\node_modules\sprintf-js\demo\angular.html" />
+    <None Include="app_admin\node_modules\console-browserify\test\static\index.html" />
+    <None Include="app_admin\node_modules\crypto-browserify\example\index.html" />
+    <None Include="app_admin\node_modules\cuint\examples\uint32.html" />
+    <None Include="app_admin\node_modules\eventsource\example\index.html" />
+    <None Include="app_admin\node_modules\faye-websocket\examples\sse.html" />
+    <None Include="app_admin\node_modules\faye-websocket\examples\ws.html" />
+    <None Include="app_admin\node_modules\jsbn\example.html" />
+    <None Include="app_admin\node_modules\json3\changes.html" />
+    <None Include="app_admin\node_modules\karma\static\client.html" />
+    <None Include="app_admin\node_modules\karma\static\client_with_context.html" />
+    <None Include="app_admin\node_modules\karma\static\context.html" />
+    <None Include="app_admin\node_modules\karma\static\debug.html" />
+    <None Include="app_admin\node_modules\less\test\data\page.html" />
+    <None Include="app_admin\node_modules\less\test\sourcemaps\index.html" />
+    <None Include="app_admin\node_modules\loglevel\test\manual-test.html" />
+    <None Include="app_admin\node_modules\loglevel\test\test-qunit.html" />
+    <None Include="app_admin\node_modules\reflect-metadata\docs\index.html" />
+    <None Include="app_admin\node_modules\sax\LICENSE-W3C.html" />
+    <None Include="app_admin\node_modules\sax\examples\test.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\ajaxy_page.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\alerts.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\blank.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\bodyTypingTest.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\booleanAttributes.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\clickEventPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\clicks.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\ClickTest_testClicksASurroundingStrongTag.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_frames.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_jacker.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_out_of_bounds.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_out_of_bounds_overflow.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_rtl.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_source.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_too_big.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_too_big_in_frame.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\closeable_window.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\cn-test.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\colorPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\content-editable.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\cookies.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\cssTransform.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\cssTransform2.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\document_write_in_onload.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\dragAndDropInsideScrolledDiv.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\dragAndDropTest.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\dragDropOverflow.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\draggableLists.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\droppableItems.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\dynamic.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\dynamicallyModifiedPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\errors.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\fixedFooterNoScroll.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\fixedFooterNoScrollQuirksMode.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\formPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\formSelectionPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\form_handling_js_submit.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\framePage3.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\frameScrollChild.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\frameScrollPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\frameScrollParent.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\frameset.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\framesetPage2.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\framesetPage3.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\frameWithAnimals.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\globalscope.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\hidden.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\hidden_partially.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\html5Page.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\idElements.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\iframeAtBottom.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\iframes.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\iframeWithAlert.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\iframeWithIframe.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\injectableContent.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\javascriptEnhancedForm.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\javascriptPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\keyboard_shortcut.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\key_logger.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\linked_image.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\longContentPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\macbeth.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\map_visibility.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\messages.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\meta-redirect.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\missedJsReference.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\mouseOver.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\mousePositionTracker.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\nestedElements.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\overflow-body.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\pageWithOnBeforeUnloadMessage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\pageWithOnLoad.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\pageWithOnUnload.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\page_with_link_to_slow_loading_page.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\readOnlyPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\rectangles.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\resultPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\rich_text.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scroll.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scroll2.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scroll3.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scroll4.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scroll5.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\selectableItems.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\selectPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\sessionCookie.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\sessionCookieDest.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\simpleTest.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\single_text_input.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\slowLoadingAlert.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\slowLoadingResourcePage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\slow_loading_iframes.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\styledPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\tables.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\tinymce.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\transparentUpload.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\underscore.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\unicode_ltr.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\upload.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\userDefinedProperty.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\veryLargeCanvas.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\visibility-css.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\win32frameset.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\xhtmlTest.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\child\childPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\child\grandchild\grandchildPage.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\click_iframe.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\click_in_iframe.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\disabled_element.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\disappearing_element.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\google_map.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\html5_submit_buttons.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\issue5237.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\issue5237_frame.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\issue5237_target.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\link_that_wraps.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\mapped_page1.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\mapped_page2.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\mapped_page3.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\overlapping_elements.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\partially_overlapping_elements.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\span_that_wraps.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\submitted_page.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\click_tests\wrapped_overlapping_elements.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\element_in_frame.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\element_in_nested_frame.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_element_out_of_view.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_empty_element.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_fixed_element.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_hidden_element.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_invisible_element.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_transparent_element.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\simple_page.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\bug4876.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\bug4876_iframe.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\deletingFrame.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\deletingFrame_iframe.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\deletingFrame_iframe2.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\html5\status.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\key_tests\remove_on_keypress.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\locators_tests\boolean_attribute_selected.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\locators_tests\boolean_attribute_selected_html4.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\modal_dialogs\modalindex.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\modal_dialogs\modal_1.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\modal_dialogs\modal_2.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\modal_dialogs\modal_3.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\overflow\x_auto_y_auto.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\overflow\x_auto_y_hidden.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\overflow\x_auto_y_scroll.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\overflow\x_hidden_y_auto.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\overflow\x_hidden_y_hidden.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\overflow\x_hidden_y_scroll.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\overflow\x_scroll_y_auto.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\overflow\x_scroll_y_hidden.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\overflow\x_scroll_y_scroll.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\proxy\page1.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\proxy\page2.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\proxy\page3.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\safari\frames_benchmark.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\screen\screen.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\screen\screen_frame1.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\screen\screen_frame2.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\screen\screen_frames.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\screen\screen_iframes.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\screen\screen_too_long.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\screen\screen_x_long.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\screen\screen_x_too_long.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\screen\screen_y_long.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\screen\screen_y_too_long.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_height_above_200.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_height_above_2000.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_nested_scrolling_frame.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_nested_scrolling_frame_out_of_view.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_small_height.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_double_overflow_auto.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_frame_out_of_view.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_nested_scrolling_frames.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_nested_scrolling_frames_out_of_view.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_non_scrolling_frame.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_partially_hidden_element.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_scrolling_frame.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_scrolling_frame_out_of_view.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_tall_frame.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_y_overflow_auto.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\target_page.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\window_switching_tests\page_with_frame.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\lib\test\data\window_switching_tests\simple_page.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\node_modules\tmp\coverage\lcov-report\index.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\node_modules\tmp\coverage\lcov-report\lib\index.html" />
+    <None Include="app_admin\node_modules\selenium-webdriver\node_modules\tmp\coverage\lcov-report\lib\tmp.js.html" />
+    <None Include="app_admin\node_modules\serve-index\public\directory.html" />
+    <None Include="app_admin\node_modules\sockjs\examples\echo\index.html" />
+    <None Include="app_admin\node_modules\sockjs\examples\express\index.html" />
+    <None Include="app_admin\node_modules\sockjs\examples\express-3.x\index.html" />
+    <None Include="app_admin\node_modules\sockjs\examples\hapi\html\index.html" />
+    <None Include="app_admin\node_modules\sockjs\examples\koa\index.html" />
+    <None Include="app_admin\node_modules\sockjs\examples\multiplex\index.html" />
+    <None Include="app_admin\node_modules\tslib\tslib.es6.html" />
+    <None Include="app_admin\node_modules\tslib\tslib.html" />
+    <None Include="app_admin\node_modules\uglify-es\tools\props.html" />
+    <None Include="app_admin\node_modules\uglify-js\tools\props.html" />
+    <None Include="app_admin\node_modules\unique-filename\coverage\index.html" />
+    <None Include="app_admin\node_modules\unique-filename\coverage\__root__\index.html" />
+    <None Include="app_admin\node_modules\unique-filename\coverage\__root__\index.js.html" />
+    <None Include="app_admin\node_modules\uri-js\tests\test-es5-min.html" />
+    <None Include="app_admin\node_modules\uri-js\tests\test-es5.html" />
+    <None Include="app_admin\node_modules\vm-browserify\example\run\index.html" />
+    <None Include="app_admin\node_modules\webpack-dev-server\client\live.html" />
+    <None Include="app_admin\node_modules\xxhashjs\examples\xxhash.html" />
+    <None Include="app_admin\src\index.html" />
+    <None Include="app_admin\src\app\app.component.html" />
+    <None Include="app_admin\src\app\add-trip\add-trip.component.html" />
+    <None Include="app_admin\src\app\delete-trip\delete-trip.component.html" />
+    <None Include="app_admin\src\app\edit-trip\edit-trip.component.html" />
+    <None Include="app_admin\src\app\home\home.component.html" />
+    <None Include="app_admin\src\app\login\login.component.html" />
+    <None Include="app_admin\src\app\navbar\navbar.component.html" />
+    <None Include="app_admin\src\app\trip-card\trip-card.component.html" />
+    <None Include="app_admin\src\app\trip-listing\trip-listing.component.html" />
+    <None Include="node_modules\jsbn\example.html" />
+    <None Include="node_modules\uglify-js\tools\domprops.html" />
+    <None Include="public\about.html" />
+    <None Include="public\contact.html" />
+    <None Include="public\index.html" />
+    <None Include="public\meals.html" />
+    <None Include="public\news.html" />
+    <None Include="public\rooms.html" />
+    <None Include="public\travel.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app_admin\node_modules\nan\nan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_callbacks_12_inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_callbacks_pre_12_inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_converters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_converters_43_inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_converters_pre_43_inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_define_own_property_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_implementation_12_inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_implementation_pre_12_inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_maybe_43_inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_maybe_pre_43_inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_new.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_object_wrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_persistent_12_inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_persistent_pre_12_inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_scriptorigin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_string_bytes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_typedarray_contents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app_admin\node_modules\nan\nan_weak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
